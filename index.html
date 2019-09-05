@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
@@ -31,63 +33,113 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">AttO</h1>
-                        <p class="intro-text">Insert Mission Statement (?) Here</p><a class="btn btn-link tada animated btn-circle" role="button" href="#services"><i class="fa fa-angle-double-down animated" data-bs-hover-animate="rubberBand"></i></a></div>
+                        <h1 class="pulse animated brand-heading">AttO</h1>
+                        <p class="intro-text">Insert Mission Statement (?) Here</p><a class="btn btn-link pulse animated infinite btn-circle" role="button" href="#services"><i class="fa fa-angle-double-down animated" data-bs-hover-animate="rubberBand"></i></a></div>
                 </div>
             </div>
         </div>
     </header>
-    <section id="services" class="content-section text-center" style="color: rgb(0,0,0);">
-        <div class="col-lg-8 mx-auto">
-            <h2 class="text-center" style="margin: auto;margin-bottom: 35px;">Services</h2>
-            <div class="carousel slide" data-ride="carousel" id="carousel-1">
-                <div class="carousel-inner text-center d-inline-flex d-lg-flex justify-content-lg-start align-items-lg-center" role="listbox">
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/X%20Carve.jpg" alt="Slide Image"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Screen%20Printer.jpg" alt="Slide Image" style="height: 100%;"></div>
-                    <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Laser.jpg" alt="Slide Image"></div>
-                    <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/Lulz%20Bot.jpg" alt="Slide Image" style="width: 100%;height: 100%;"></div>
+    <div id="services" class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" data-aos="fade-up">Services</h2>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item" data-aos="fade-right">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/Lulz%20Bot.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">3d Printing</h3>
+                            <p class="description">With over half a dozen printers, Atto can bring your 3D designs to life with rapid turn around times</p>
+                        </div>
+                    </div>
                 </div>
-                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
-                        data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-1" data-slide-to="0"></li>
-                    <li data-target="#carousel-1" data-slide-to="1"></li>
-                    <li data-target="#carousel-1" data-slide-to="2"></li>
-                    <li data-target="#carousel-1" data-slide-to="3" class="active"></li>
-                </ol>
+                <div class="col-sm-6 item" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/Laser.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Laser Cutting/engraving</h3>
+                            <p class="description">Channel the power of high-power lasers to engrave or precisely blast through various materials</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item" data-aos="fade-right">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/X%20Carve.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">CNC Milling</h3>
+                            <p class="description">Fabricate intricate and robust components with one of our CNC milling machines</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item" data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/Screen%20Printer.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">branding</h3>
+                            <p class="description">From vinyl cutters to dye sublimators, our machines stand ready to help you spread your brand</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <section id="download" class="download-section content-section text-center" style="background-image:url('assets/img/downloads-bg.jpg');">
+    </div>
+    <div data-aos="slide-up" class="team-clean">
         <div class="container">
-            <div class="col-lg-8 mx-auto">
-                <h1>Products</h1>
-                <p>We make stuff</p><button class="btn btn-primary btn-lg btn-default" type="button">NEENENENENENENENENENEN</button></div>
-        </div>
-    </section>
-    <section id="contact" class="content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Contact us</h2>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">&nbsp; Google+</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-twitter fa-fw"></i><span class="network-name">&nbsp;Twitter</span></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></button></li>
-                    </ul>
+            <div class="intro">
+                <h2 class="text-center">Team </h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" data-bs-hover-animate="pulse" src="assets/img/placeholder.png">
+                    <h3 class="name">Avidh Bavkar</h3>
+                    <p class="title">CEO</p>
+                    <p class="description">Hey! I'm Avidh, a high school student in Ventura CA. I am part of Foothill Technology High School's class of 2020. When I'm not at school I'm building and programming competitive robots.</p>
+                    <div class="social"><a href="#"></a><a href="https://linkedin.com/in/avidhbavkar/"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">Andrew lee</h3>
+                    <p class="title">cfo</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">thomas liang</h3>
+                    <p class="title">&nbsp;</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">Nathaniel Barnaby</h3>
+                    <p class="title">&nbsp;</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">Ethan Peters</h3>
+                    <p class="title">&nbsp;</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">Daniel Espinola</h3>
+                    <p class="title">&nbsp;</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="assets/img/placeholder.png">
+                    <h3 class="name">Liam Wulff</h3>
+                    <p class="title">&nbsp;</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="map-clean"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=+&amp;q=Paris%2C+France&amp;zoom=15" width="100%" height="450"></iframe></div>
-    <footer>
-        <div class="container text-center">
-            <p>Copyright ©&nbsp;Brand 2018</p>
-        </div>
-    </footer>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.min.js"></script>
 </body>
 
